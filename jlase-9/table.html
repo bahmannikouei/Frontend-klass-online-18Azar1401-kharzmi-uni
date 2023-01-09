@@ -1,5 +1,18 @@
 <style>
+    a:hover{
+        color: red; 
+    }
+    body{
+        margin: 0%;
+    }
     td{
+        /* background-color: rgb(205, 205, 226); */
+        /* padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px; */
+        padding: 10px;
         /* border: 1px solid rgba(5, 197, 2, 0.189);
         border-left: 1px solid rgb(144, 144, 144);
         border-radius: 5px;
@@ -8,42 +21,63 @@
 
         border-style: solid;
         /* border-radius: 5px; */
-        padding: 5px;
+        /* padding: 5px; */
+        border: 1px solid black;
         text-align: justify;
+        
     }
     th{
         border: 1px solid rgb(0, 146, 0);
-        padding: 5px;
+        /* padding: 5px; */
         border-radius: 5px;
+        /* background-color: rgb(218, 179, 255); */
     }
     .col40 {
-        width: 40%;
+        width: 30%;
     }
     .col20 {
         width: 20%;
     }
     table{
-        border: 3px;
+        border: 2px;
         border-style: inset;
         border-color: rgb(0, 0, 0);
         /* border-radius: 10px; */
         /* border-collapse: collapse; */
+        border-spacing: 5px;
     }
     tr{
         height: 50px;
     }
+    /* tr:nth-child(odd){
+        background-color: rgb(253, 239, 221);
+    } */
+    /* tr:nth-child(even){
+        background-color: rgb(199, 252, 252);
+    } */
+    tr:hover{
+        background-color: rgb(205, 204, 204);
+    }
 </style>
 
-
 <table style="width: 100%;">
+        <caption>This is a caption</caption>
+    <colgroup>
+        <col span="1" style="background-color: aquamarine; ">
+        <col span="1">
+        <col span="1" style="background-color: bisque; ">
+        <col span="1">
+    </colgroup>
+
+
     <tr>
-        <th class="col40">Name</th>
-        <th class="col20">Family</th>
-        <th class="col20">Phone Number</th>
-        <th class="col20">Discription</th>
+        <th class="col40"><a href="https://google.com" >Name</a> </th>
+        <th>Family</th>
+        <th>Phone Number</th>
+        <th>Discription</th>
     </tr>
-    <tr>
-        <td>Bahman</td>
+    <tr >
+       <td>Bahman</td>
         <td>Nikouei</td>
         <td>09123456789</td>
         <td></td>
@@ -58,6 +92,49 @@
         <td>Mehdi</td>
         <td>Assadi</td>
         <td>09112233554</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zahra</td>
+        <td>Alavi</td>
+        <td>09339999887</td>
         <td></td>
     </tr>
     <tr>
